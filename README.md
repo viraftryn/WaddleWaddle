@@ -20,7 +20,7 @@ This app integrates motion sensing and notifications for a more interactive and 
 
 📁 Project Structures <br/>
 WaddleWaddle/ <br/>
-├── Assets.xcassets/              &ensp # App icons and UI assets <br/>
+├── Assets.xcassets/              # App icons and UI assets <br/>
 ├── ContentView.swift             # Onboarding forms <br/>
 ├── Notification.swift            # Notification scheduling logic <br/>
 ├── ShakeDetector.swift           # Shake gesture detection <br/>
