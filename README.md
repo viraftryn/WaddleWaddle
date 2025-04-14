@@ -1,4 +1,4 @@
-🐣**WADDLE - Daily Water Reminder**🐣 <br/>
+🐣 **WADDLE - Daily Water Reminder** 🐣 <br/>
 Waddle is a SwiftUI-based iOS application that promotes healthy hydration habits by calculating and tracking individual water intake needs. 
 This app integrates motion sensing and notifications for a more interactive and timely user experience.
 
@@ -18,8 +18,8 @@ This app integrates motion sensing and notifications for a more interactive and 
 - CoreMotion: Implements shake gesture detection for logging intake
 - UserNotifications: Schedules local notifications to remind users to drink wate
 
-📁 Project Structures
-WaddleWaddle/
+📁 Project Structures <br/>
+WaddleWaddle/ <br/>
 ├── Assets.xcassets/              # App icons and UI assets <br/>
 ├── ContentView.swift             # Onboarding forms <br/>
 ├── Notification.swift            # Notification scheduling logic <br/>
