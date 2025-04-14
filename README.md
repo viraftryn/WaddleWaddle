@@ -20,17 +20,17 @@ This app integrates motion sensing and notifications for a more interactive and 
 
 📁 Project Structures <br/>
 WaddleWaddle/ <br/>
-├── Assets.xcassets/              # App icons and UI assets <br/>
-├── ContentView.swift             # Onboarding forms <br/>
-├── Notification.swift            # Notification scheduling logic <br/>
-├── ShakeDetector.swift           # Shake gesture detection <br/>
-├── UserData.swift                # Handles user data and state <br/>
-├── WelcomePage.swift             # Animated welcome screen + routing setup and root view controller <br/>
-├── Page_*.swift                  # Step-by-step onboarding forms <br/>
-├── Page_Main.swift               # Home screen with progress tracking <br/>
-├── Page_Profile.swift            # User profile summary and update <br/>
-├── WaddleWaddleApp.swift         # App entry point <br/>
-└── WaddleNotification.wav        # Custom notification sound <br/>
+├── Assets.xcassets/              #App icons and UI assets <br/>
+├── ContentView.swift             #Onboarding forms <br/>
+├── Notification.swift            #Notification scheduling logic <br/>
+├── ShakeDetector.swift           #Shake gesture detection <br/>
+├── UserData.swift                #Handles user data and state <br/>
+├── WelcomePage.swift             #Animated welcome screen + routing setup and root view controller <br/>
+├── Page_*.swift                  #Step-by-step onboarding forms <br/>
+├── Page_Main.swift               #Home screen with progress tracking <br/>
+├── Page_Profile.swift            #User profile summary and update <br/>
+├── WaddleWaddleApp.swift         #App entry point <br/>
+└── WaddleNotification.wav        #Custom notification sound <br/>
 
 🧠 Problem-Solving & Coding Style
 - To simplify screen transitions and make routing scalable, this project uses a centralized enum **Route** to define all possible screens. It is passed into the **NavigationStack** using a single source of truth (**path**) and resolved with **.navigationDestination**.
